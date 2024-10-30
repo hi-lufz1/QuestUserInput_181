@@ -140,7 +140,7 @@ fun CardSection(judulParam: String, isiParam: String) {
         ) {
             Text(text = judulParam, fontSize = 20.sp, modifier = Modifier.weight(0.9f))
             Text(text = " : ", fontSize = 20.sp, modifier = Modifier.weight(0.2f))
-            Text(text = "$isiParam", fontSize = 20.sp, modifier = Modifier.weight(1.4f))
+            Text(text = isiParam, fontSize = 20.sp, modifier = Modifier.weight(1.4f))
         }
 
     }
